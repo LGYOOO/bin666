@@ -14,13 +14,13 @@ export const banners = [
     id: 1,
     title: "夏日冰爽季",
     subtitle: "全场美食5折起起步",
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=delicious%20food%20summer%20promotion%20banner%20with%20ice%20cold%20drinks%20and%20fresh%20dishes&image_size=landscape_16_9",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=summer%20food%20promotion%20banner%20with%20cold%20drinks%20and%20delicious%20dishes&image_size=landscape_16_9",
   },
   {
     id: 2,
     title: "周五会员日",
-    subtitle: "全场美",
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=VIP%20member%20day%20promotion%20banner%20with%20golden%20elements%20and%20food&image_size=landscape_16_9",
+    subtitle: "全场美食优惠",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=VIP%20member%20day%20promotion%20banner%20golden%20theme&image_size=landscape_16_9",
   },
 ];
 
@@ -35,7 +35,7 @@ export const merchants = [
     deliveryFee: 3,
     minOrder: 20,
     tags: ["满30减10", "支持自提", "首单免配送费"],
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=fresh%20grocery%20store%20front%20view%20with%20vegetables%20and%20fruits%20display&image_size=landscape_4_3",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=fresh%20grocery%20store%20vegetables%20fruits%20display&image_size=landscape_4_3",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ export const merchants = [
     deliveryFee: 0,
     minOrder: 15,
     tags: ["9.9元秒杀", "极速到手"],
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=modern%20coffee%20shop%20front%20with%20coffee%20cups%20and%20cozy%20atmosphere&image_size=landscape_4_3",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=modern%20coffee%20shop%20interior%20cozy%20atmosphere&image_size=landscape_4_3",
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ export const merchants = [
     deliveryFee: 5,
     minOrder: 30,
     tags: ["满49减15", "赠送小食"],
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=burger%20restaurant%20front%20with%20burgers%20and%20fries%20display&image_size=landscape_4_3",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=burger%20restaurant%20with%20burgers%20and%20fries&image_size=landscape_4_3",
   },
 ];
 
@@ -79,7 +79,7 @@ export const cartItems = [
     spec: "标准冰 / 五分糖 / 大杯",
     quantity: 1,
     price: 22,
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=bubble%20milk%20tea%20with%20brown%20sugar%20pearls%20in%20clear%20cup&image_size=square",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=bubble%20milk%20tea%20with%20brown%20sugar%20pearls&image_size=square",
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ export const cartItems = [
     spec: "单份",
     quantity: 1,
     price: 18,
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=strawberry%20cheese%20bread%20with%20cream%20filling%20on%20plate&image_size=square",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=strawberry%20cheese%20bread%20cream%20filling&image_size=square",
   },
 ];
 
@@ -98,7 +98,7 @@ export const riderInfo = {
   deliveredOrders: 2500,
   isCertified: true,
   phone: "13900139000",
-  avatar: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=delivery%20rider%20portrait%20in%20uniform%20with%20helmet&image_size=square",
+  avatar: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=delivery%20man%20portrait%20professional%20uniform&image_size=square",
 };
 
 export const orderStatus = {
@@ -108,7 +108,7 @@ export const orderStatus = {
   remainingMinutes: 12,
   merchant: {
     name: "必胜客（陆家嘴店）",
-    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=Pizza%20Hut%20restaurant%20front&image_size=square",
+    image: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=pizza%20restaurant%20exterior%20sign&image_size=square",
   },
   progress: [
     { step: "商家已出餐", completed: true },
@@ -137,7 +137,7 @@ export const agentInfo = {
   name: "林经理",
   title: "专属招商顾问",
   status: "在线中",
-  avatar: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=professional%20business%20consultant%20portrait%20in%20suit&image_size=square",
+  avatar: "https://neeko-copilot.bytedance.net/api/text_to_image?prompt=business%20consultant%20portrait%20professional%20suit&image_size=square",
 };
 
 export const stats = {
